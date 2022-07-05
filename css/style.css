@@ -1,0 +1,90 @@
+@import "../css/variables.css";
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  color: var(--main-text-color);
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: var(--header-background-color);
+  padding: 22px 0px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header__logo {
+  margin-right: 15px;
+}
+.nav__items {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.nav__item:not(:last-child) {
+  margin-right: 28px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: var(--header-nav-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+}
+.nav__link_active {
+  font-weight: 700;
+  color: var(--header-active-color);
+}
+
+.header__action-info {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+.header__lng-info {
+  margin-right: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: var(--second-text-color);
+  position: relative;
+}
+.header__lng-info::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: url(../icons/header/lng-icon.svg);
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+}
+
+.header__login-button {
+  padding: 8px 22px;
+  background-color: var(--header-background-btn);
+  color: var(--header-textcolor-btn);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}

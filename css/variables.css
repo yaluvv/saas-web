@@ -1,0 +1,10 @@
+:root {
+  --main-text-color: #666666;
+  --second-text-color: #fff;
+  --header-background-color: #2851e3;
+
+  --header-background-btn: #fff;
+  --header-textcolor-btn: #3563e9;
+  --header-active-color: #fff;
+  --header-nav-color: #e0e0e0;
+}
