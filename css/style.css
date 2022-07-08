@@ -355,3 +355,75 @@ body {
 .account__form-button:hover {
   opacity: 0.8;
 }
+
+/* ACCOUNT END */
+
+/* CLIENTS SECTION */
+.clients__container {
+  padding-bottom: 100px;
+}
+.clients__carousel {
+  margin-top: 96px;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+.clients__carousel::before {
+  content: "";
+  width: 12.5px;
+  height: 25px;
+  background: url(../icons/clients/arrow.svg) no-repeat;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.clients__carousel::after {
+  content: "";
+  width: 12.5px;
+  height: 25px;
+  background: url(../icons/clients/arrow.svg) no-repeat;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  cursor: pointer;
+}
+.clients__images-items {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.clinets__images-item:not(:last-child) {
+  margin-right: 8px;
+}
+.clients__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 414px;
+}
+.clients__item:not(:last-child) {
+  margin-right: 52px;
+}
+.clients__user-img {
+  margin-top: 27px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.clients__desc {
+  margin-top: 27px;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #424242;
+  text-align: center;
+}
+.clients__user-name {
+  margin-top: 8px;
+  text-align: center;
+}
+
+/* CLIENTS END */
