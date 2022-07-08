@@ -272,3 +272,86 @@ body {
   width: 50%;
   height: 50%;
 }
+
+/* ACCOUNT SECTION */
+.account {
+  padding: 80px 0;
+}
+.account__container {
+  padding: 60px 91px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  background-color: var(--thirty-color);
+}
+.account__info-block {
+  max-width: 485px;
+}
+.account__info-title {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 114%;
+  color: var(--second-text-color);
+  margin-bottom: 16px;
+}
+.account__info-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--second-text-color);
+  margin-bottom: 48px;
+}
+.account__image-block {
+  max-width: 485px;
+  margin-left: 48px;
+}
+.account__img {
+  width: 100%;
+}
+.account__form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.account__form-input {
+  width: 367px;
+  height: 44px;
+  border-radius: 5px;
+  padding-left: 49px;
+  border: none;
+  position: relative;
+}
+.account__form-input::placeholder {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #bdbdbd;
+}
+
+/* .account__form-input::before {
+  content: "";
+  width: 300px;
+  height: 300px;
+  top: 20px;
+  left: 20px;
+  background: url(../images/discover/1.jpg) no-repeat;
+  position: absolute;
+} */
+
+.account__form-button {
+  width: 102px;
+  height: 44px;
+  background-color: var(--four-color);
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.46px;
+  color: var(--second-text-color);
+  border: none;
+  cursor: pointer;
+  margin-left: 16px;
+}
+.account__form-button:hover {
+  opacity: 0.8;
+}
