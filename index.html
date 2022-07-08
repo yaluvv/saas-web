@@ -38,7 +38,7 @@
 
             <div class="header__action-info">
                 <div class="header__lng-info">EN</div>
-                <button class="header__login-button">Log in</button>
+                <button id="open-login" class="header__login-button">Log in</button>
             </div>
             <a href="#" class="menu-btn">
                 <span class="menu-btn__line"></span>
@@ -53,7 +53,7 @@
                 <p class="hero__desc">Align is constantly improving to move forward through dashboard, statistics, data
                     and verify and superior human resources.
                 </p>
-                <button class="hero__btn-started">Get Started</button>
+                <button id="open-started" class="hero__btn-started">Get Started</button>
             </div>
 
             <div class="hero__image">
@@ -200,7 +200,6 @@
             </div>
         </div>
     </section>
-    <script src="./js/index.js"></script>
 
     <footer class="footer">
         <div class="container footer__container">
@@ -331,6 +330,22 @@
             </div>
         </div>
     </footer>
+    <div class="popup">
+        <div class="popup__container">
+            <div class="popup__body">
+                <h3 class="popup__title">Log in</h3>
+                <form class="popup__form">
+                    <input class="popup__input" type="email" name="name" id="name" placeholder="Enter your email">
+                    <input class="popup__input" type="password" name="password" id="password"
+                        placeholder="Enter your password">
+                    <button class="popup__btn" type="submit">Submit</button>
+                </form>
+                <button class="popup__close" id="popup-close">X</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
