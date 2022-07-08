@@ -26,12 +26,31 @@
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  .nav__items {
+    display: none;
+  }
+  .nav.nav_active .nav__items {
+    display: flex;
+    flex-direction: column;
+  }
+  .header__action-info {
+    display: none;
+  }
+  .nav.nav_active .header__action-info {
+    display: flex;
+    flex-direction: column;
+    z-index: 200;
+  }
+  .nav__link {
+    font-size: 26px;
+  }
+  .nav__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 775px) {
-  .header__container {
-    flex-direction: column;
-  }
   .footer__item-info {
     margin-right: 0;
   }
