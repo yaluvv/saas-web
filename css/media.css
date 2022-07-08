@@ -19,6 +19,9 @@
 }
 
 @media (max-width: 850px) {
+  .menu-btn {
+    display: inline-block;
+  }
   .block-info {
     flex-direction: column;
   }
