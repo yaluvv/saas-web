@@ -3,7 +3,7 @@ const navLinks = document.querySelectorAll('.nav__link')
 let lengthLinks = navLinks.length
 const burgerMenu = document.querySelector('.menu-btn')
 
-const popupBtn = document.querySelectorAll('#popup-btn')
+const popupBtn = document.querySelectorAll('.popup-btn')
 const popupOverlay = document.querySelector('.popup__container')
 const popup = document.querySelector('.popup')
 const popupClose = document.querySelector('#popup-close')
