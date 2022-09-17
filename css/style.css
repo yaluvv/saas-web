@@ -1,4 +1,20 @@
-@import "../css/variables.css";
+:root {
+  --main-text-color: #666666;
+  --second-text-color: #fff;
+  --thirty-color: #3563e9;
+  --four-color: #000;
+
+  --header-background-color: #2851e3;
+  --header-background-btn: #fff;
+  --header-textcolor-btn: #3563e9;
+  --header-active-color: #fff;
+  --header-nav-color: #e0e0e0;
+
+  --hero-bg-color: #000;
+
+  --main-title-color: #212121;
+  --main-subtitle-color: #757575;
+}
 
 *,
 *::after,
